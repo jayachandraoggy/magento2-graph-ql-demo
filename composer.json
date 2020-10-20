@@ -1,0 +1,20 @@
+{
+    "name": "jc/graph-ql-demo",
+    "version": "1.0.0",
+    "description": "A module to show how to create and use graphql queries in Magento 2",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Open Software License (OSL)"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jc\\GraphQlDemo\\": ""
+        }
+    }
+}
